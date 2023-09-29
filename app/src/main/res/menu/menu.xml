@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/HOME"
+        android:title="Home"
+        android:icon="@drawable/home"/>
+    <item android:id="@+id/tempFragment"
+        android:icon="@drawable/cold"
+        android:title="Temperature"/>
+    <item android:id="@+id/scientificFragment"
+        android:title="Scientific"
+        android:icon="@drawable/calculator"/>
+
+</menu>

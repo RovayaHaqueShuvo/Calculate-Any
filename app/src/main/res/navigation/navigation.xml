@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/home_Fragment">
+
+    <fragment
+        android:id="@+id/scientificFragment"
+        android:name="org.freedu.allcalculation.ScientificFragment"
+        android:label="fragment_scientific"
+        tools:layout="@layout/fragment_scientific" />
+    <fragment
+        android:id="@+id/tempFragment"
+        android:name="org.freedu.allcalculation.TempFragment"
+        android:label="fragment_temp"
+        tools:layout="@layout/fragment_temp" />
+    <fragment
+        android:id="@+id/home_Fragment"
+        android:name="org.freedu.allcalculation.Home_Fragment"
+        android:label="fragment_home_"
+        tools:layout="@layout/fragment_home_" />
+</navigation>

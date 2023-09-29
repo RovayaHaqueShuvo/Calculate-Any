@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item
+        android:id="@+id/bmiFragment"
+        android:icon="@drawable/bmi"
+        android:title="BMI" />
+    <item
+        android:id="@+id/scientificFragment"
+        android:icon="@drawable/calculator"
+        android:title="Scientific" />
+    <item
+        android:id="@+id/tempFragment"
+        android:icon="@drawable/cold"
+        android:title="Temperature" />
+    <item
+        android:title="BG Color">
+        <menu>
+            <item
+                android:id="@+id/white"
+                android:title="White" />
+            <item
+                android:id="@+id/black"
+                android:title="Black" />
+            <item
+                android:id="@+id/red"
+                android:title="Red" />
+
+        </menu>
+    </item>
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/setting"
+                android:title="Settings" />
+            <item
+                android:id="@+id/logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
